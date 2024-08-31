@@ -3,37 +3,87 @@
 }
 
 body {
-  display: grid;
-  grid-template-rows: 10vh 10vh 10vh;
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
   justify-content: space-around;
+  width: 36vw;
   height: 40vh;
   background-color: #fff;
-  gap: 0.5%;
+  gap: 1%;
 }
 .first-row {
-  display: grid;
-  grid-template-rows: 5rem 3rem;
-  grid-template-columns: 2fr 1fr;
+  height: 100%;
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1%;
 }
 
 .sec-row {
-  display: grid;
-  grid-template-rows: 5rem 3rem;
-  grid-template-columns: 3fr 1fr;
+  justify-content: space-around;
+  height: 100%;
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
 }
 .third-row {
-  display: grid;
-  grid-template-rows: 5rem 3rem;
-  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
 }
 .fourth-row {
-  display: grid;
-  grid-template-rows: 5rem 3rem;
-  grid-template-columns: 2fr 1fr;
+  height: 100%;
+  width: 35vw;
+  display: flex;
+  gap: 1%;
+  flex-direction: row;
 }
-.div-item {
+.div-first-item {
   width: 80%;
-  height: 50%;
+  height: 80%;
+  background-color: palevioletred;
+}
+.div-sec-item {
+  width: 20%;
+  height: 80%;
+  background-color: palevioletred;
+}
+/* ----- */
+.div-3-item {
+  width: 40%;
+  height: 80%;
+  background-color: palevioletred;
+}
+.div-4-item {
+  width: 60%;
+  height: 80%;
+  background-color: palevioletred;
+}
+/* ----- */
+.div-5-item {
+  width: 90%;
+  height: 80%;
+  background-color: palevioletred;
+}
+.div-6-item {
+  width: 10%;
+  height: 80%;
+  background-color: palevioletred;
+}
+/* ----- */
+.div-7-item {
+  width: 50%;
+  height: 80%;
+  background-color: palevioletred;
+}
+.div-8-item {
+  width: 50%;
+  height: 80%;
   background-color: palevioletred;
 }
